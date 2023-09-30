@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueGraphsCRM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-blue-500">
+    <div id="sidebar" class="w-64 h-full fixed top-0 left-0 bg-blue-800 text-white">
+        <button id="homeButton" class="w-full p-4 text-left">Home</button>
+        <button id="contactsButton" class="w-full p-4 text-left">Contacts</button>
+        <button id="customersButton" class="w-full p-4 text-left">Customers</button>
+        <button id="accountsButton" class="w-full p-4 text-left">Accounts</button>
+    </div>
+    <div id="main" class="ml-64 p-6">
+        <div id="barChartContainer" class="w-full h-64"></div>
+        <div id="pieChartContainer" class="w-full h-64"></div>
+        <div id="invoicesTableContainer" class="w-full"></div>
+        <div id="agedPayablesContainer" class="w-full"></div>
+        <div id="totalRevenueContainer" class="w-full"></div>
+        <div id="pnlPastSixMonthsContainer" class="w-full"></div>
+        <div id="incomeSourcesContainer" class="w-full"></div>
+    </div>
+    <script src="scripts.js"></script>
+    <script src="graphs/barChart.js"></script>
+    <script src="graphs/pieChart.js"></script>
+    <script src="tables/invoicesTable.js"></script>
+    <script src="tables/agedPayables.js"></script>
+    <script src="tables/totalRevenue.js"></script>
+    <script src="tables/pnlPastSixMonths.js"></script>
+    <script src="tables/incomeSources.js"></script>
+    <script src="sidebar/home.js"></script>
+    <script src="sidebar/contacts.js"></script>
+    <script src="sidebar/customers.js"></script>
+    <script src="sidebar/accounts.js"></script>
+</body>
+</html>
